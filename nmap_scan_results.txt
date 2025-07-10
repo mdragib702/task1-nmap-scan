@@ -1,0 +1,26 @@
+| Port | State | Service      |
+| ---- | ----- | ------------ |
+| 21   | open  | ftp          |
+| 22   | open  | ssh          |
+| 23   | open  | telnet       |
+| 25   | open  | smtp         |
+| 53   | open  | domain       |
+| 80   | open  | http         |
+| 111  | open  | rpcbind      |
+| 139  | open  | netbios-ssn  |
+| 445  | open  | microsoft-ds |
+| 512  | open  | exec         |
+| 513  | open  | login        |
+| 514  | open  | shell        |
+
+
+
+Each open port may indicate a running service, such as:
+
+FTP (21) for file transfer
+
+SSH (22) for secure shell
+
+HTTP (80) for websites
+
+MySQL (3306) for database access
